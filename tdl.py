@@ -19,7 +19,7 @@ def trial():
     for i in range(0,NUM-1):
         perr[i] = (values[i+1] - values[i] + rewards[i]);
         
-        		
+        	
     print("Values:  ",end='');
     print(values);
     print("PredErr: ",end='');
@@ -33,7 +33,6 @@ def run():
     currVal = "";
     while(currVal != "done"):
         currVal = input("Awaiting Input:").lower();
-        print(currVal);
         if(currVal == "run"):
              print("Ran 1 trial!");
              trial();
