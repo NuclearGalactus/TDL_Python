@@ -18,7 +18,7 @@ def trial():
         }else{
             currentPos--;
         }
-        predictions
+        predictions = weights[i]
         
         	
     print("Values:  ",end='');
